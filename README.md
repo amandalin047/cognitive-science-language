@@ -18,8 +18,8 @@ _Fanann an bhean sa chéad fhoirgneamh._
 _Tá doras ag an bhfoirgneamh._
 (The building has a door.)
 
-_Tá úinéir an fhoirgnimh ar thaobh na láimhe clé den madra._
-(The owner of the building is on the left hand side of the dog.)
+_Tá úinéir an fhoirgnimh glas díreach ar thaobh na láimhe clé den madra._
+(The owner of the building is immediately to the left of the dog.)
 
 _Tá an madra in aice leis an bhean._
 (The dog is next to the lady.)
@@ -34,6 +34,8 @@ _Tá comharsa ag an bhfear a bhfuil madra aige._
 ## The Infamous Riddle That Only 2% of the Population Can Solve
 Now that you've familiarized yourself with the language, here's a logical puzzle written in Irish that needs your help solving:
 
+|House 1     | House 2     | House 3     | House 4     | House 5     |
+
 There are five buildings of different colors (_dearg_ “red”, _glas_ “green”, _bán_ “white”, _buí_ “yellow”, _gorm_ “blue”) next to each other at a resort, each owned by a man of a unique occupation (_file_ “poet”, _múinteoir_ “teacher”, _péintéir_ “painter”, _feirmeoir_ “farmer”, _baincéir_ “banker”). During this time of year, all five owners come to stay in the building they own for vacation. Each owner has an exclusive favorite drink (_tae_ “tea”, _caife_ “coffee”, _bainne_ “milk”, _beoir_ “beer”, _uisce_ “water”), a distinct favorite brand of cigarettes (Pall Mars, Dunhill, Blends, Blue Master, Prince), and has a specific pet species (_madra_ “dog”, _cat_ “cat”, _capall_ “horse”, _éan_ “bird”, _iasc_ “fish”). The clues listed below are written in Irish. Can you complete the grid to solve the puzzle, and answer the question **"Who has a fish as a pet?"**
 
 - _Fanann an file san fhoirgneamh dearg._
@@ -42,7 +44,7 @@ There are five buildings of different colors (_dearg_ “red”, _glas_ “green
 
 - _Ólann an péintéir tae._
 
-- _Tá an foirgneamh glas ar thaobh na láimhe clé den fhoirgneamh bán._
+- _Tá an foirgneamh glas díreach ar an taobh clé den fhoirgneamh bán_
 
 - _Ólann úinéir an fhoirgnimh glas caife._
 
@@ -81,9 +83,9 @@ From the example sentences given in the [first section](#word-order-and-linguist
   drink-3SG    DET    painter    tea\
   **The painter drinks tea**
 
-- _Tá    an   foirgneamh  glas    ar   thaobh   na     láimhe   clé    den   fhoirgneamh   bán._\
-  AFF    DET  building    green   on    side    DET    hand     left    of    building     white\
-  **The green building is on the left hand side of the white building**
+- _Tá    an   foirgneamh  glas  díreach  ar   thaobh   na     láimhe   clé    den   fhoirgneamh   bán._\
+  AFF    DET  building    green  just   on    side    DET    hand     left    of    building     white\
+  **The green building is immediately to the left of the white building**
 
 - _Ólann      úinéir   an   fhoirgnimh    glas     caife._\
   drink-3SG   owner    on   building-?    green    coffee\
