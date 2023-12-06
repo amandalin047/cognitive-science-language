@@ -34,7 +34,8 @@ _Tá comharsa ag an bhfear a bhfuil madra aige._
 ## The Infamous Riddle That Only 2% of the Population Can Solve
 Now that you've familiarized yourself with the language, here's a logical puzzle written in Irish that needs your help solving:
 
-|House 1     | House 2     | House 3     | House 4     | House 5     |
+| House 1     | House 2     | House 3     | House 4     | House 5     |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 
 There are five buildings of different colors (_dearg_ “red”, _glas_ “green”, _bán_ “white”, _buí_ “yellow”, _gorm_ “blue”) next to each other at a resort, each owned by a man of a unique occupation (_file_ “poet”, _múinteoir_ “teacher”, _péintéir_ “painter”, _feirmeoir_ “farmer”, _baincéir_ “banker”). During this time of year, all five owners come to stay in the building they own for vacation. Each owner has an exclusive favorite drink (_tae_ “tea”, _caife_ “coffee”, _bainne_ “milk”, _beoir_ “beer”, _uisce_ “water”), a distinct favorite brand of cigarettes (Pall Mars, Dunhill, Blends, Blue Master, Prince), and has a specific pet species (_madra_ “dog”, _cat_ “cat”, _capall_ “horse”, _éan_ “bird”, _iasc_ “fish”). The clues listed below are written in Irish. Can you complete the grid to solve the puzzle, and answer the question **"Who has a fish as a pet?"**
 
@@ -131,8 +132,98 @@ From the example sentences given in the [first section](#word-order-and-linguist
   AFF   neighbor   have-?   DET   owner    REL    smoke-3SG    Blends   REL   drink-3SG    water\
   **The owner who smokes Blends has a neighbor who drinks water**
 
+I prefer to convert the clues into a more "concise" form where each of the five _attributes_ in each _attribute category_ (i.e., occupation, building color, drink, cigarette brand, pet) is assigned a number from 1 to 5 indicating the building it belongs to:
+```
+poet = red
+teacher = dog
+painter = tea
+white - green = 1
+green = coffee
+pallmars = bird
+yellow = dunhill
+milk = 3
+farmer = 1
+abs(cat - blends) = 1
+abs(horse - yellow) = 1
+bluemaster = beer
+banker = prince
+abs(farmer - blue) = 1
+abs(blends - water) = 1
+```
+from which is easy to see that
+```
+blue = 2
+(green, white) = (3,4) or (4,5)
+```
+where if `(green, white) = (3,4)`, then `coffee = green = 3 = milk`, a contradiction. Therefore
+```
+green = 4, white = 5
+```
+As such,
+```
+(yellow, red) = (1,3) or (3,1)
+```
+where if `(yellow, red) = (3,1)`, then `poet = 1 = farmer`, a contradiction. So
+```
+yellow = 1, red = 3
+```
+Thus,
+```
+horse = 2
+poet = 3
+dunhill = 1
+```
+and
+```
+cat = 1 or fish = 1
+```
+since
+```
+1 = farmer ≠ teacher = dog
+```
+Also `water = 1` since
+```
+milk = 3, coffee = 4,
+1 = dunhill ≠ bluemaster = beer.x, 
+1 = farmer ≠ painter = tea.x
+```
+From this we deduce that
+```
+blends = 2
+beer = bluemaster = 5
+```
+since
+```
+beer = bluemaster ≠ 1 = dunhill
+                  ≠ 2 = blends
+                  ≠ 3 = milk
+                  ≠ 4 = coffee
+```
+And that
+```
+banker = prince = 4
+```
+for if `banker = 3`, then `banker = 3 = poet`, a contradiction.
+Further, 
+```
+bird = pallmars = 3
+```
+so
+```
+cat = 1
+```
+since `abs(cat - blends) = 1` and `cat ≠ 3 = bird`
+Finally, we have
+```
+painter = tea = 2
+dog = teacher = 5
+```
+which implies that
+```
+fish.x = 4
+```
 
-The logical puzzle is actually a variant of [Einstein's Puzzle](https://en.wikipedia.org/wiki/Zebra_Puzzle), whose solution is tabulated below
+This logical puzzle is actually a variant of [Einstein's Puzzle](https://en.wikipedia.org/wiki/Zebra_Puzzle). From the above reasoning, the full solution can be tabulated as follows
 
 | House 1     | House 2     | House 3     | House 4     | House 5     |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
