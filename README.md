@@ -71,66 +71,25 @@ There are five buildings of different colors (_dearg_ “red”, _glas_ “green
 
 ## Solution
 From the example sentences given in the [first section](#word-order-and-linguistic-typology), the puzzle clues can be translated into English as follows (I did my best on the glossing part, but with limited data, some I am uncertain of)
+<img src="https://github.com/amandalin047/cognitive-science-language/blob/master/glossing-1.png" alt="Glossing-1" width="1000">
+<img src="https://github.com/amandalin047/cognitive-science-language/blob/master/glossing-2.png" alt="Glossing-2" width="1000">
 
-- _Fanann     an   file   san    fhoirgneamh  dearg_\
-  stay-3SG   DET   poet   in      building    red\
-  **The poet stays in the red building**
-
-- _Tá   madra   ag       an     múinteoir._\
-  AFF    dog   have-?    DET    teacher\
-  **The teacher has a dog**
-
-- _Ólann       an     péintéir   tae._\
-  drink-3SG    DET    painter    tea\
-  **The painter drinks tea**
-
-- _Tá    an   foirgneamh  glas  díreach  ar   thaobh   na     láimhe   clé    den   fhoirgneamh   bán._\
-  AFF    DET  building    green  just   on    side    DET    hand     left    of    building     white\
-  **The green building is immediately to the left of the white building**
-
-- _Ólann      úinéir   an   fhoirgnimh    glas     caife._\
-  drink-3SG   owner    on   building-?    green    coffee\
-  **The owner of the green building drinks coffee**
-
-- _Tá    éan      ag      an     úinéir   a   chaitheann    Pall  Mars._\
-  AFF    bird    have-?   DET    owner   REL    smoke-3SG   Pall  Mars\
-  **The owner who smokes Pall Mars has a bird**
-
-- _Caitheann   úinéir   an    fhoirgnimh    buí     Dunhill._\
-  smoke-3SG    owner    DET   building-?    yellow   Dunhill\
-  **The owner of the yellow building smokes Dunhill**
-
-- _Ólann       úinéir   an    fhoirgnimh    ionaid   bainne._\
-  drink-3SG    owner    DET   building-?    center   milk\
-  **The owner of the center building drinks milk**
-
-- _Fanann    an    feirmeoir   sa    chéad    fhoirgneamh._\
-  stay-3SG   DET   farmer      in    first    building\
-  **The farmer stays in the first building**
-
-- _Tá    comharsa     ag      an    úinéir   a     chaitheann   Blends    a    bhfuil   cat   aige._\
-  AFF    neighbor   have-?    DET   owner    REL    smoke-3SG   Blends   REL   BHFUIL   cat   have-?\
-  **The owner who smokes Blends has a neighbor who has a cat**
-
-- _Tá   comharsa     ag     úinéir   an    fhoirgnimh    buí      a    bhfuil   capall   aige._\
-  AFF   neighbor   have-?   owner    DET   building-?    yellow   REL   BHFUIL   horse    have-?\
-  **The owner of the yelllow building has a neighbor who has a horse**
-
-- _Ólann       an    t-úinéir    a     chaitheann   Blue   Master   beoir._\
-  drink-3SG    DET   T-owner    REL    smoke-3SG    Blue   Master   beer\
-  **The owner who smokes Blue Master drinks beer**
-
-- _Caitheann   an    baincéir   Prince._\
-  smoke-3SG    DET    banker    Prince\
-  **The banker smokes Prince**
-
-- _Tá    an    feirmeoir  in aice   leis        an    bhfoirgneamh  gorm._\
-  AFF    DET   farmer      beside   to/with-?  DET    BH-building   blue\
-  **The farmer is next to the blue building**
-
-- _Tá   comharsa   ag       an    úinéir   a     chaitheann    Blends    a      ólann      uisce_\
-  AFF   neighbor   have-?   DET   owner    REL    smoke-3SG    Blends   REL   drink-3SG    water\
-  **The owner who smokes Blends has a neighbor who drinks water**
+For better readability, the English translations of the clues are listed below in boldface:
+- **The poet stays in the red building**
+- **The teacher has a dog**
+- **The painter drinks tea**
+- **The green building is immediately to the left of the white building**
+- **The owner of the green building drinks coffee**
+- **The owner who smokes Pall Mars has a bird**
+- **The owner of the yellow building smokes Dunhill**
+- **The owner of the center building drinks milk**
+- **The farmer stays in the first building**
+- **The owner who smokes Blends has a neighbor who has a cat**
+- **The owner of the yelllow building has a neighbor who has a horse**
+- **The owner who smokes Blue Master drinks beer**
+- **The banker smokes Prince**
+- **The farmer is next to the blue building**
+- **The owner who smokes Blends has a neighbor who drinks water**
 
 I prefer to convert the clues into a more "concise" form where each of the five _attributes_ in each _attribute category_ (i.e., occupation, building color, drink, cigarette brand, pet) is assigned a number from 1 to 5 indicating the building it belongs to:
 ```
